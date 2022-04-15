@@ -1,5 +1,5 @@
 .shownav {
-     height: 0.8em; width: 1.25em; display: block;  
+     height: 0.8em; width: 1.25em; display: inline-block;  
     border-top: 0.2em solid black;
     border-bottom: 0.2em solid black;   
     border-radius: 0.1em; }
@@ -18,10 +18,10 @@
      display: none;
      flex-direction: column;
  }
- #clicked .on {display: block;}
+ #clicked .on {display: inline-block;}
  #clicked .off {display: none;}
  #clicked:target .on {display: none;}
- #clicked:target .off {display: block;}
+ #clicked:target .off {display: inline-block;}
  #clicked:target .menu{display: flex;}
  h1{
     text-align: center;
