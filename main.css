@@ -86,3 +86,6 @@ a{
     color:yellowgreen;
     border-radius: 10px;
 }
+.on,.off{
+    display: none;
+}
