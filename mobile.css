@@ -25,7 +25,7 @@
  #clicked:target .menu{display: flex;}
  h1{
     text-align: center;
-    width: 70%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
