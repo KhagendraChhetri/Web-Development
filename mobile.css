@@ -23,3 +23,9 @@
  #clicked:target .on {display: none;}
  #clicked:target .off {display: block;}
  #clicked:target .menu{display: flex;}
+ h1{
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
