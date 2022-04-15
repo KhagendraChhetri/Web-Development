@@ -1,0 +1,88 @@
+body{
+    background: linear-gradient(blue,green,pink,grey);
+background-attachment: fixed;
+background-repeat: no-repeat;
+}   
+form{
+    height: 50vh;
+    margin: 6em;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(122, 140, 162);
+    color: rgb(0, 0, 0);
+    padding: 1em;
+    margin-top: 0em;
+    
+}
+input[type=text], input[type=submit]{
+    display: block;
+    width: 40%;
+    border-radius: 12px;
+    margin: .5em;
+    padding: .5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gender{
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+    display: flex;
+    width: 2em;
+}
+input[type=submit]{
+    width: 20%;
+background-color: bisque;
+cursor: pointer;}
+p{
+    margin: 2em;
+    border: 1px solid grey;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+li{
+    list-style: none;
+}
+ul,p,h1,input{
+    border-radius: 12px;
+    box-shadow: 3px 3px 5px 4px blueviolet;
+    background-color: black;
+    color: yellowgreen;
+
+}
+h1{
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left ul{
+    display: block;
+    width: 50%;
+    float: left;
+    border: 1px solid black;
+    margin: 1em;
+    padding: 1em;
+}
+.right ul{
+    display: block;
+    width: 50%;
+    border: 1px solid black;
+    margin: 1em;
+    padding: 1em;
+    float: right;
+}
+a{
+    padding: .4em;
+    border: 1px solid grey;
+    text-decoration: none;
+    background-color: black;
+    color:yellowgreen;
+    border-radius: 10px;
+}
